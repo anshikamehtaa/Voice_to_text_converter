@@ -43,7 +43,7 @@ def SpeechToText():
 Label(mainwindow, text='Voice Based Text Input System',
       font=('Times New Roman', 16), bg='red', wrap=True, wraplength=450).place(x=130, y=10)
 
-speechtotextbutton = Button(mainwindow, text='Click to start speech Recognition!', font=('Times New Roman', 16), bg='Purple',
+speechtotextbutton = Button(mainwindow, text='Click to start speech Recognition!!', font=('Times New Roman', 16), bg='Purple',
                             command=SpeechToText)
 speechtotextbutton.place(x=100, y=250)
 
